@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST</title> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>P-Seminar Scientific Lifehacks</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div id="div"><h1> TEST </h1></div>
+
+  <!-- Title Bar -->
+
+  <section class="white-section title-section">
+    <a class="title-a" href="index.html">
+      <img src="imgs/logo.png" alt="P-Seminar Logo" style="width: 150px;">
+    </a>
+    <div class="title">
+      <h3>
+        <a class="title-a title" href="index.html">
+          P-Seminar Scientific Lifehacks
+        </a>
+      </h3>
+    </div>
+  </section>
+
+  <!-- Pictures -->
+
+  <section class="white-section">
+    <div class="container-fluid">
+      <section class="colored-section">
+
+        <div id="pictures-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="carousel-image" src="imgs/products/allesreiniger.jpeg" alt="Allesreiniger">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/products/seife.jpeg" alt="Seife">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/products/seife2.jpeg" alt="Seife">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/products/seife3.jpeg" alt="Seife">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/lifehacks/feuerzeug.jpg" alt="Feuerzeug">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/lifehacks/kabelsicherung.jpg" alt="Kabelsicherung">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/lifehacks/magnet.jpeg" alt="Magnet">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/lifehacks/permanentmarker.jpg" alt="Permanentmarker">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/products/allesreiniger2.jpeg" alt="Allesreiniger">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="carousel-image" src="imgs/lifehacks/schere-schleifen.jpeg" alt="Schere schleifen">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#pictures-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#pictures-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+      </section>
+    </div>
+  </section>
+
+  <!-- Buttons to Lifehacks -->
+
+  <button onclick="window.location.href='lifehacks.html';" type="button" class="btn btn-lg p-button">
+    Alle Lifehacks
+  </button>
+
+  <button onclick="window.location.href='products.html';" type="button" class="btn btn-lg p-button">
+    Alle Produkte
+  </button>
+
+  <!-- About us -->
+
+  <section class="white-section">
+    <div class="about-us">
+      <h3 class="feature-title">Wer wir sind</h3>
+      <p>Das P-Seminar "Scientific Lifehacks" war ein Projekt von 2021 bis 2022, wo eine Gruppe Oberstufenschüler naturfreundliche Hygieneprodukte designt hat. Das Ziel ist es, diese Artikel so zu gestalten, dass jeder diese zuhause selbst herstellen kann. Diese Website ist die Sammlung aller Projekte inklusive der Anleitungen.</p>
+    </div>
+  </section>
+
 </body>
+
 </html>

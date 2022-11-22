@@ -1,0 +1,118 @@
+
+body {
+  font-family: "Nunito";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito";
+  font-weight: 700;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 20px 20px;
+  max-width: 1500px;
+}
+
+/* Title Bar */
+
+.title {
+  color: #59774F;
+  padding: 0 0 20px 0;
+  font-size: 2rem;
+}
+
+.title-a:hover {
+  color: #646464;
+  text-decoration: none;
+}
+
+.back-button {
+  float: left;
+  font-size: 2rem;
+  color: #59774F;
+}
+
+.back-button:hover {
+  color: #646464;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #A1AF9D;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.title-section {
+  vertical-align: center;
+}
+
+.detail-section {
+  background-color: #A1AF9D;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Buttons */
+
+.p-button {
+  margin: 50px 10px 10px;
+  background-color: #59774F;
+  color: white;
+}
+
+/* Home page */
+
+.carousel-image {
+  max-width: 80%;
+  max-height: 400px;
+  padding: 0;
+}
+
+.about-us {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0 50px;
+  padding-top: 50px;
+  text-align: left;
+}
+
+/* Products page */
+
+.project-overview {
+  padding: 20px;
+}
+
+.project-link {
+  color: white;
+}
+
+.project-link:hover {
+  color: white;
+}
+
+.overview-img {
+  width: 200px;
+}
+
+/* Individual pages */
+
+.detail-img {
+  max-width: 70%;
+  max-height: 300px;
+  padding-bottom: 20px;
+}
+
+.detail-text {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
